@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator Page</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo"></a>
+        <nav>
+            <a href="clock.html">Clock</a>
+            <a href="piano.html">Piano</a>
+            <a href="lesson_html_css.html">HTML & CSS Basic</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="call_and_apply.html">Call and Apply</a>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <h1>Calculator example</h1>    
+    <span>Calculator example</span>    
+    <!-- table style="border: 1px solid black;" -->
+    <table border="1">
+        <tr>
+            <th>Addition</th>
+            <th>Substraction</th>
+            <th>Division</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="add1" style="width: 30px"> + <input type="text" id="add2" style="width: 30px"> = <span id="addResult"></span> </td>
+            <td><input type="text" id="sub1"> - <input type="text" id="sub2"> = <span id="subResult"></span> </td>
+            <td><input type="text" id="div1"> / <input type="text" id="div2"> = <span id="divResult"></span> </td>
+        </tr>
+        <tr>
+            <td><button onclick="addResult()" type="button">ADD</button></td>
+            <td><div onclick="subResult()">SUB</div></td>
+            <td><div onclick="divResult()">DIV</div></td>
+        </tr>
+    </table>
+</body>
+<script src="js/calculator.js"></script>
+</html>

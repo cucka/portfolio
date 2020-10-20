@@ -1,0 +1,86 @@
+body{
+    background: #ccc;
+}
+
+/* Main*/
+.clear{
+    clear: both;
+}
+
+/* Index page */
+
+.logo{
+    float: left;
+}
+
+header{
+    margin: 20px 15px;
+}
+
+nav{
+    float: right;
+    margin: 30px 30px 0 0;
+}
+
+nav a{
+    background: #a3a6a9;
+    box-shadow: 3px 3px 3px #bdbaba;
+    border-radius: 5px;
+    border: 1px solid #b3a9a9;
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 7px;
+    text-decoration: none
+}
+
+nav a:last-child{
+    margin-right: 0;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+/* For lesson html and css page */
+.example li{
+    background: blue;
+}
+
+.example p{
+    background: blue;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}
+
+.example .special{
+    background: green;
+    font-weight: bold;
+}
+
+.example p{
+    background: yellow;
+}
+
+.example article div p{
+    background: blue;
+}
+
+/* Clock */
+
+.clock{
+    text-align: center;
+}
+
+.clock h1{
+    font-weight: normal;
+}
+
+.clock div{
+    font-size: 50px;
+}
+
+
+
